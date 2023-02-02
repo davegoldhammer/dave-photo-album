@@ -19,7 +19,7 @@ spec:
       containers:
       - name: photo-album
         # Point directly to GH Packages
-        image: ghcr.io/davegoldhammer/dave-photo-almbum/photo-album:latest
+        image: ghcr.io/davegoldhammer/dave-photo-album/photo-album:latest
         # Enable DEBUG logging on the static web server
         env:
         - name: DEBUG
