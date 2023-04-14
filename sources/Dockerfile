@@ -3,7 +3,7 @@
 # web server image that will serve it.
 
 ## Begin build layer
-FROM docker.io/python:3.11.2-slim as builder
+FROM docker.io/python:3.11.3-slim as builder
 
 WORKDIR /src
 
