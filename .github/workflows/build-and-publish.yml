@@ -18,12 +18,12 @@ jobs:
       - name: Build image
         run: |
           cd sources
-          podman build -t photo-album .          
+          podman build -t photo-album .
 
       # GitHub Packages struggles with the capitals in the UCBoulder org name
       - name: Downcase repo path
         run: |
-                    echo "REPO=ghcr.io/${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
+          echo "REPO=ghcr.io/${GITHUB_REPOSITORY,,}" >>${GITHUB_ENV}
 
       - name: Push image to GH packages
         run: |
