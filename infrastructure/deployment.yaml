@@ -31,8 +31,8 @@ spec:
     spec:
       containers:
       - name: photo-album
-        # Point to image through the ImageStreamTag
-        image: imagestream-photo-album:latest
+        # Point directly to GH Packages
+        image: ghcr.io/davegoldhammer/dave-photo-album/photo-album:latest
         # Enable DEBUG logging on the static web server
         env:
         - name: DEBUG
