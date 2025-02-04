@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-photo-album
-  namespace: oit-sepe-example
+  namespace: oit-sepe-unprivileged
   labels:
     app: my-photo-album
   # Tell Deployment to update iteslf when the ImageStreamTag changes

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-photo-album
-  namespace: oit-sepe-example
+  namespace: oit-sepe-unprivileged
   labels:
     app: my-photo-album
 spec:

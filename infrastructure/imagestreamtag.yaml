@@ -5,7 +5,7 @@ kind: ImageStreamTag
 metadata:
   # The implicit ImageStream will be "imagestream-photo-album", and this tag will be "latest"
   name: imagestream-photo-album:latest
-  namespace: oit-sepe-example
+  namespace: oit-sepe-unprivileged
 tag:
   name: latest
   # Point to GH Packages
